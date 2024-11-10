@@ -11,12 +11,13 @@ class App {
             { id: 'page1', name: 'page1' },
             { id: 'page2', name: 'page2' },
             { id: 'page3', name: 'page3' },
+            { id: 'sustain', name: 'sustain'}
         ];
 
         pages.forEach(page => {
             const pageLink = document.getElementById(page.id);
             pageLink.addEventListener('click', (event) => {
-                event.preventDefault(); // Prevent default anchor behavior
+                event.preventDefault(); 
                 this.loadContent(page.name);
             });
         });
