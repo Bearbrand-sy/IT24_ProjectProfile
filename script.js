@@ -11,7 +11,8 @@ class App {
             { id: 'page1', name: 'page1' },
             { id: 'page2', name: 'page2' },
             { id: 'page3', name: 'page3' },
-            { id: 'sustain', name: 'sustain'}
+            { id: 'sustain', name: 'sustain'},
+            { id: 'species', name: 'species'}
         ];
 
         pages.forEach(page => {
